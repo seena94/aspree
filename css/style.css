@@ -14,7 +14,8 @@ h2 {
 .container, .row {
   margin: 0;
   padding: 0;
-  height: 100%; }
+  height: 100%;
+  width: 100%; }
 
 .sidebar-nav {
   background: #000;
@@ -29,14 +30,16 @@ h2 {
       align-self: center; }
 
 .horizontal-header {
-  height: 20px;
+  height: 60px;
+  width: 90%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
   .horizontal-header .header-content {
-    flex: 1 0 auto; }
+    flex: 0 2 auto;
+    color: #a9a9a9; }
 
 .footer-section {
   width: 100%;

@@ -18,6 +18,7 @@ h2 {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	width: 100%;
 }
 
 .sidebar-nav {
@@ -38,7 +39,8 @@ h2 {
 }
 
 .horizontal-header {
-	height: 20px;
+	height: 60px;
+	width: 90%;
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
@@ -46,7 +48,8 @@ h2 {
 	align-items: center;
 
 	.header-content {
-		flex: 1 0 auto;
+		flex: 0 2 auto;
+		color: #a9a9a9;
 	}
 }
 
