@@ -1,0 +1,30 @@
+/*@import "base/_typography.scss";*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2 {
+  margin: 0; }
+
+.container, .row {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+.sidebar-nav {
+  background: black;
+  height: 100%;
+  width: 10%; }
+
+.horizontal-header {
+  height: 20px; }
+
+.footer-section {
+  width: 100%;
+  height: 50px;
+  clear: both; }
