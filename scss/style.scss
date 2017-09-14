@@ -31,9 +31,17 @@ h2 {
 		flex-direction: column;
 		flex-wrap: nowrap;
 		justify-content: center;
+		height: 100%;
+		list-style-type: none;
+		padding: 13px;
+
+		.fa {
+			padding: 17px; 
+		}
 
 		.menu-list {
-			align-self: center;
+			text-align: center;
+			color: #a9a9a9;
 		}
 	}
 }

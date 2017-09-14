@@ -25,9 +25,15 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center; }
+    justify-content: center;
+    height: 100%;
+    list-style-type: none;
+    padding: 13px; }
+    .sidebar-nav .menu-section .fa {
+      padding: 17px; }
     .sidebar-nav .menu-section .menu-list {
-      align-self: center; }
+      text-align: center;
+      color: #a9a9a9; }
 
 .horizontal-header {
   height: 60px;
