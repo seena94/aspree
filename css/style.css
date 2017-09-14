@@ -34,9 +34,13 @@ h2 {
     .sidebar-nav .menu-section .menu-list {
       color: #a9a9a9; }
 
+.content-wrapper {
+  width: 90%;
+  padding: 0; }
+
 .horizontal-header {
   height: 60px;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -47,6 +51,39 @@ h2 {
     color: #a9a9a9; }
   .horizontal-header .fa {
     padding: 10px; }
+
+.banner-section {
+  background: url(../images/paris1.jpg) no-repeat center;
+  background-size: cover;
+  height: 210px;
+  position: relative; }
+  .banner-section .location-name {
+    color: #fff;
+    position: absolute;
+    top: 14px;
+    left: 18px; }
+    .banner-section .location-name .fa {
+      padding: 5px; }
+  .banner-section .location-time, .banner-section .location-timemrng {
+    background-color: #663399;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 100%;
+    opacity: .7; }
+    .banner-section .location-time .time-display, .banner-section .location-timemrng .time-display {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      transform: translateY(-50%);
+      padding: 38px;
+      color: #fff; }
+  .banner-section .location-timemrng {
+    background-color: #FF7F50;
+    right: 130px; }
 
 .footer-section {
   width: 100%;
