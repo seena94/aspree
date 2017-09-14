@@ -1,4 +1,6 @@
-/*@import "base/_typography.scss";*/
+@import "base/_reset.scss";
+@import "base/_typography.scss";
+@import "base/_mixins.scss";
 
 body,
 html {
@@ -111,6 +113,27 @@ h2 {
 		@extend .location-time;
         background-color: #FF7F50;
         right: 130px;
+	}
+}
+.col-sm-4, .col-sm-6, .col-sm-3 {
+	padding:0;
+}
+
+.menu-content-wrapper {
+	background: #e5e3e3;
+	height: 400px;
+
+	.mail-section {
+		width: 100%;
+		min-height: 360px;
+		background: #fff;
+		margin:24px;
+
+		.mail-head {
+			color: red;
+			font-size: 20px;
+			padding: 10px;
+		}
 	}
 }
 
