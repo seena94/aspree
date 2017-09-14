@@ -24,7 +24,7 @@ h2 {
 }
 
 .sidebar-nav {
-	background: #000;
+	background: $color-black;
 	height: 100%;
 	width: 10%;
 
@@ -42,7 +42,7 @@ h2 {
 		}
 
 		.menu-list {
-			color: #a9a9a9;
+			color: $main-color;
 		}
 	}
 }
@@ -53,17 +53,17 @@ h2 {
 }
 
 .horizontal-header {
-	height: 60px;
-	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	height: 60px;
+	width: 100%;
 
 	.header-content {
+		color: $main-color;
 		flex: 0 2 auto;
-		color: #a9a9a9;
 	}
 
 	.fa {
@@ -74,11 +74,11 @@ h2 {
 .banner-section {
 	background: url(../images/paris.jpg)  no-repeat center;
 	background-size: cover;
-	height: 210px;
 	position: relative;
+	height: 210px;
 
 	.location-name {
-		color: #fff;
+		color: $color-white;
 		position: absolute;
 		top: 14px;
 		left: 18px;
@@ -89,7 +89,7 @@ h2 {
 	}
 
 	.location-time {
-		background-color: #663399;
+		background-color: $banner-background-color;
 		position: absolute;
 	    top: 0;
 	    right: 0;
@@ -98,6 +98,7 @@ h2 {
 	    opacity: .7;
 
 	    .time-display {
+	    	color: $color-white;
 	    	position: absolute;
 	    	top: 50%;
 		    left: 0;
@@ -105,13 +106,12 @@ h2 {
 		    text-align: center;
 		    transform: translateY(-50%);
 		    padding: 38px;
-		    color: #fff;
 	    }
 	}
 
 	.location-timemrng {
 		@extend .location-time;
-        background-color: #FF7F50;
+        background-color: $time-background-color;
         right: 130px;
 	}
 }
@@ -124,14 +124,14 @@ h2 {
 	height: 400px;
 
 	.mail-section {
+		background: $color-white;
 		width: 100%;
 		min-height: 360px;
-		background: #fff;
 		margin:24px;
 
 		.mail-head {
-			color: red;
-			font-size: 20px;
+			color: $color-red;
+			font-size: $font-size__lg;
 			padding: 10px;
 		}
 	}
