@@ -65,10 +65,6 @@ h2 {
 		color: $main-color;
 		flex: 0 2 auto;
 	}
-
-	.fa {
-		padding:10px;
-	}
 }
 
 .banner-section {
@@ -121,7 +117,7 @@ h2 {
 
 .menu-content-wrapper {
 	background: #e5e3e3;
-	height: 400px;
+	height: 1000px;
 
 	.mail-section {
 		background: $color-white;
@@ -134,6 +130,35 @@ h2 {
 			font-size: $font-size__lg;
 			padding: 10px;
 		}
+		.mail-content {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+
+			.mail-user {
+				width: 30px;
+				height: 30px;
+			}
+
+			.mail-details {
+				width: 80%;
+				padding-left: 44px;
+			}
+
+			.mail-text {
+				flex: 1 0 auto; 
+			}
+		}
+	}
+}
+
+.note-section {
+	@extend .mail-section;
+
+	.note-heading {
+		color: $banner-background-color;
+		font-size: $font-size__lg;
+		padding: 10px;
 	}
 }
 

@@ -48,8 +48,6 @@ h2 {
   .horizontal-header .header-content {
     color: #a9a9a9;
     flex: 0 2 auto; }
-  .horizontal-header .fa {
-    padding: 10px; }
 
 .banner-section {
   background: url(../images/paris.jpg) no-repeat center;
@@ -89,16 +87,33 @@ h2 {
 
 .menu-content-wrapper {
   background: #e5e3e3;
-  height: 400px; }
-  .menu-content-wrapper .mail-section {
+  height: 1000px; }
+  .menu-content-wrapper .mail-section, .menu-content-wrapper .note-section {
     background: #fff;
     width: 100%;
     min-height: 360px;
     margin: 24px; }
-    .menu-content-wrapper .mail-section .mail-head {
+    .menu-content-wrapper .mail-section .mail-head, .menu-content-wrapper .note-section .mail-head {
       color: #ff0000;
       font-size: 20px;
       padding: 10px; }
+    .menu-content-wrapper .mail-section .mail-content, .menu-content-wrapper .note-section .mail-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .menu-content-wrapper .mail-section .mail-content .mail-user, .menu-content-wrapper .note-section .mail-content .mail-user {
+        width: 30px;
+        height: 30px; }
+      .menu-content-wrapper .mail-section .mail-content .mail-details, .menu-content-wrapper .note-section .mail-content .mail-details {
+        width: 80%;
+        padding-left: 44px; }
+      .menu-content-wrapper .mail-section .mail-content .mail-text, .menu-content-wrapper .note-section .mail-content .mail-text {
+        flex: 1 0 auto; }
+
+.note-section .note-heading {
+  color: #663399;
+  font-size: 20px;
+  padding: 10px; }
 
 .footer-section {
   width: 100%;
