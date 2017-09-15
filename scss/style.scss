@@ -23,10 +23,16 @@ h2 {
 	width: 100%;
 }
 
+.main-wrapper {
+	display: table;
+}
+
 .sidebar-nav {
 	background: $color-black;
+	min-height: 100%;
 	height: 100%;
 	width: 10%;
+	display: table-cell;
 
 	.menu-section {
 		display: flex;
@@ -50,6 +56,7 @@ h2 {
 .content-wrapper {
 	width: 90%;
 	padding: 0;
+	display: table-cell;
 }
 
 .horizontal-header {
@@ -159,6 +166,39 @@ h2 {
 		color: $banner-background-color;
 		font-size: $font-size__lg;
 		padding: 10px;
+
+		.fa {
+			float: right;
+		}
+	}
+
+	.note-content {
+		display: inline-block;
+		padding: 12px;
+		width: 100%;
+
+		.note-description {
+			float: left;
+			width: 70%;
+		}
+
+		button {
+			margin-left: 30px;
+			width: 20%;
+			border: none; 
+		}
+
+		.share {
+			background: #00ffff;
+		}
+
+		.food {
+			background: #e69500;
+		}
+
+		.work {
+			background: #009acd;
+		}
 	}
 }
 

@@ -16,10 +16,15 @@ h2 {
   height: 100%;
   width: 100%; }
 
+.main-wrapper {
+  display: table; }
+
 .sidebar-nav {
   background: #000;
+  min-height: 100%;
   height: 100%;
-  width: 10%; }
+  width: 10%;
+  display: table-cell; }
   .sidebar-nav .menu-section {
     display: flex;
     flex-direction: column;
@@ -35,7 +40,8 @@ h2 {
 
 .content-wrapper {
   width: 90%;
-  padding: 0; }
+  padding: 0;
+  display: table-cell; }
 
 .horizontal-header {
   display: flex;
@@ -114,6 +120,26 @@ h2 {
   color: #663399;
   font-size: 20px;
   padding: 10px; }
+  .note-section .note-heading .fa {
+    float: right; }
+
+.note-section .note-content {
+  display: inline-block;
+  padding: 12px;
+  width: 100%; }
+  .note-section .note-content .note-description {
+    float: left;
+    width: 70%; }
+  .note-section .note-content button {
+    margin-left: 30px;
+    width: 20%;
+    border: none; }
+  .note-section .note-content .share {
+    background: #00ffff; }
+  .note-section .note-content .food {
+    background: #e69500; }
+  .note-section .note-content .work {
+    background: #009acd; }
 
 .footer-section {
   width: 100%;
