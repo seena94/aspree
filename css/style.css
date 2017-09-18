@@ -152,3 +152,36 @@ h2 {
 
 .fa {
   padding: 10px; }
+
+.contact-section {
+  background: #fff;
+  width: 50%;
+  min-height: 360px;
+  margin-left: 87px; }
+  .contact-section .contact-heading {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 20px; }
+    .contact-section .contact-heading .contact-description {
+      width: 70%;
+      float: left; }
+    .contact-section .contact-heading .fa {
+      float: right; }
+
+.contact-text .contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .contact-text .contact .mail-text {
+    flex: 1 0 auto;
+    align-self: center; }
+  .contact-text .contact .mail-user {
+    width: 20px;
+    height: 20px; }
+
+.weather-section {
+  width: 50%;
+  background: url(../images/weather.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 360px; }
